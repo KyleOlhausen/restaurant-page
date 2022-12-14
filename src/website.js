@@ -7,7 +7,6 @@
 
 function createHeader() {
     const header = document.createElement("header");
-    header.classList.add("header");
     const nav = document.createElement("nav");
     
     const homeBtn = document.createElement("button");
@@ -34,9 +33,13 @@ function createHeader() {
         loadContact()
     });
 
+    const title = document.createElement("h1");
+    title.textContent = "Coffee Shop";
+
     header.appendChild(nav)
     nav.appendChild(homeBtn)
     nav.appendChild(menuBtn)
     nav.appendChild(aboutBtn)
     nav.appendChild(contactBtn)
+    header.appendChild(title)
 }
