@@ -131,6 +131,17 @@ nav button:hover {
     white-space: pre;
 }
 
+#left.contact {
+    background-color: antiquewhite;
+    background-image: none;
+    white-space: pre;
+}
+
+#right.contact {
+    background-image: url(/img/map.png);
+    background-size: cover;
+}
+
 footer {
     display: flex;
     justify-content: center;
