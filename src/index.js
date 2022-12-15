@@ -1,6 +1,7 @@
 import loadHome from "./home"
 import loadAbout from "./about";
 import loadMenu from "./menu";
+import loadContact from "./contact";
 
 
 function initializeWebsite() {
