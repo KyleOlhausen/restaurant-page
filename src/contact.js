@@ -4,15 +4,12 @@ function loadContact() {
     const cardRight = document.getElementById("right");
 
     infoText.textContent = "Contact us"
-
     cardLeft.textContent = "";
     cardRight.textContent = "";
-
     cardLeft.textContent = "Address:\n936 Kiehn Route West Ned, TN 11230\n\nPhone: 281-330-8004\n\nEmail: fakestore@email.com"
 
     removeClass(cardLeft);
     cardLeft.classList.add("contact");
-
     removeClass(cardRight);
     cardRight.classList.add("contact");
 }

@@ -92,7 +92,6 @@ function createFooter() {
     locLine2.textContent = "West Ned, TN 11230"
     locLine3.textContent = "281-330-8004"
 
-
     const hrsTitle = document.createElement("h4");
     const hrsLine1 = document.createElement("p");
     const hrsLine2 = document.createElement("p");

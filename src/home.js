@@ -8,18 +8,15 @@ function loadHome() {
     const rightText = document.createElement("h3");
 
     infoText.textContent = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolorum ullam atque illum quia consectetur ut molestias ipsam! Reprehenderit sunt, modi eos repudiandae iure distinctio ipsum! Eos nesciunt velit labore!";
-
     cardLeft.textContent = "";
     cardRight.textContent = "";
+    cardLeft.textContent = "Order Online";
+    cardRight.textContent = "Menu";
 
     removeClass(cardLeft);
     cardLeft.classList.add("home");
-
     removeClass(cardRight)
     cardRight.classList.add("home");
-
-    cardLeft.textContent = "Order Online";
-    cardRight.textContent = "Menu";
 
     cardLeft.appendChild(leftText);
     cardRight.appendChild(rightText);

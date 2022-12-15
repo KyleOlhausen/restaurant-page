@@ -4,15 +4,12 @@ function loadAbout() {
     const cardRight = document.getElementById("right");
 
     infoText.textContent = "About us"
-
     cardLeft.textContent = "";
     cardRight.textContent = "";
-
     cardLeft.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam earum unde quas et eveniet quasi assumenda quo, alias, facilis eos iste ullam illum? Nam eius consequatur pariatur debitis sunt."
 
     removeClass(cardLeft);
     cardLeft.classList.add("about");
-
     removeClass(cardRight);
     cardRight.classList.add("about");
 }

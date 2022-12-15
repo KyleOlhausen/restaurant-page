@@ -4,17 +4,13 @@ function loadMenu() {
     const cardRight = document.getElementById("right");
 
     infoText.textContent = "Menu"
-
     cardLeft.textContent = "";
     cardRight.textContent = "";
-
     cardLeft.textContent = "Food\n\n dolor sit - $23\nLorem ipsum - $12\nLorem ipsum - $12\n dolor sit - $23\nLorem ipsum - $12\n dolor sit - $23\n"
     cardRight.textContent = "Drinks\n\nLorem ipsum - $12\n dolor sit - $23\nLorem ipsum - $12\n dolor sit - $23\nLorem ipsum - $12\n dolor sit - $23\n"
 
-
     removeClass(cardLeft);
     cardLeft.classList.add("menu");
-
     removeClass(cardRight);
     cardRight.classList.add("menu");
 }

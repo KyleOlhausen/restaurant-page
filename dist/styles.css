@@ -12,6 +12,7 @@ body {
 }
 
 
+/* HEADER */
 nav {
     background-color: rgba(0, 0, 0, 0.7);
     height: 80px;
@@ -52,7 +53,7 @@ nav button:hover {
 }
 
 
-
+/* INFO SECTION */
 .info {
     background-color: white;
     grid-row: 2 / 3;
@@ -94,17 +95,21 @@ nav button:hover {
     background-size: cover;
 }
 
-#right.home:hover {
-    cursor: pointer;
-}
-
 #left.home {
     background-image: url(/img/orderOnline.jpg);
     background-size: cover;
 }
 
-#left.home:hover {
+#right.home:hover, #left.home:hover {
     cursor: pointer;
+    transform: scale(1.1);
+}
+
+.menu {
+    background-image: none;
+    background-color: antiquewhite;
+    padding: 20px;
+    white-space: pre;
 }
 
 .about {
@@ -124,13 +129,6 @@ nav button:hover {
     background-size: cover;
 }
 
-.menu {
-    background-image: none;
-    background-color: antiquewhite;
-    padding: 20px;
-    white-space: pre;
-}
-
 #left.contact {
     background-color: antiquewhite;
     background-image: none;
@@ -141,6 +139,7 @@ nav button:hover {
     background-image: url(/img/map.png);
     background-size: cover;
 }
+
 
 footer {
     display: flex;
