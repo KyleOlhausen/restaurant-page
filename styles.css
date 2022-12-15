@@ -59,7 +59,7 @@ nav button:hover {
     text-align: center;
 }
 
-.info-text {
+#info-text {
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -83,22 +83,52 @@ nav button:hover {
     align-items: center;
 }
 
-.right {
+.home {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+#right.home {
     background-image: url(/img/Menu.jpg);
     background-size: cover;
 }
 
-.right:hover {
+#right.home:hover {
     cursor: pointer;
 }
 
-.left {
+#left.home {
     background-image: url(/img/orderOnline.jpg);
     background-size: cover;
 }
 
-.left:hover {
+#left.home:hover {
     cursor: pointer;
+}
+
+.about {
+    color: black;
+    font-size: 30px;
+    cursor: default;
+}
+
+#left.about {
+    padding: 20px;
+    background-image: none;
+    background-color: antiquewhite;
+}
+
+#right.about {
+    background-image: url(/img/coffeeshop.jpg);
+    background-size: cover;
+}
+
+.menu {
+    background-image: none;
+    background-color: antiquewhite;
+    padding: 20px;
+    white-space: pre;
 }
 
 footer {
