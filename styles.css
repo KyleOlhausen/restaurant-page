@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(/img/coffee1.jpg);
+    background-image: url(img/coffee1.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -91,12 +91,12 @@ nav button:hover {
 }
 
 #right.home {
-    background-image: url(/img/Menu.jpg);
+    background-image: url(img/Menu.jpg);
     background-size: cover;
 }
 
 #left.home {
-    background-image: url(/img/orderOnline.jpg);
+    background-image: url(img/orderOnline.jpg);
     background-size: cover;
 }
 
@@ -125,7 +125,7 @@ nav button:hover {
 }
 
 #right.about {
-    background-image: url(/img/coffeeshop.jpg);
+    background-image: url(img/coffeeshop.jpg);
     background-size: cover;
 }
 
@@ -136,7 +136,7 @@ nav button:hover {
 }
 
 #right.contact {
-    background-image: url(/img/map.png);
+    background-image: url(img/map.png);
     background-size: cover;
 }
 
