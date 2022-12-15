@@ -11,6 +11,7 @@ function loadMenu() {
     cardLeft.textContent = "Food\n\n dolor sit - $23\nLorem ipsum - $12\nLorem ipsum - $12\n dolor sit - $23\nLorem ipsum - $12\n dolor sit - $23\n"
     cardRight.textContent = "Drinks\n\nLorem ipsum - $12\n dolor sit - $23\nLorem ipsum - $12\n dolor sit - $23\nLorem ipsum - $12\n dolor sit - $23\n"
 
+
     removeClass(cardLeft);
     cardLeft.classList.add("menu");
 

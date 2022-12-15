@@ -1,3 +1,5 @@
+import loadMenu from "./menu";
+
 function loadHome() {
     const infoText = document.getElementById("info-text");
     const cardLeft = document.getElementById("left");
@@ -19,9 +21,12 @@ function loadHome() {
     cardLeft.textContent = "Order Online";
     cardRight.textContent = "Menu";
 
-    
     cardLeft.appendChild(leftText);
     cardRight.appendChild(rightText);
+
+    cardRight.addEventListener('click', () => {
+        if(cardRight.classList.contains("home"))loadMenu()
+    });
 }
 
 function removeClass(card) {
